@@ -38,7 +38,7 @@ sub permute_named {
     }
     $code .= " }";
     #say $code;
-    eval $code; if ($@) { say $code; die }
+    eval $code; if ($@) { warn "$code\n"; die }
     wantarray ? @res : \@res;
 }
 
