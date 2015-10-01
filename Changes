@@ -1,5 +1,14 @@
 Revision history for PERLANCAR-Permute-Named
 
+0.02    2015-10-02 (PERLANCAR)
+
+	- No functional changes.
+
+	- On eval error, change say to warn when printing code.
+
+	- Add tests.
+
+
 0.01    2015-10-01 (PERLANCAR)
 
         - First release.
