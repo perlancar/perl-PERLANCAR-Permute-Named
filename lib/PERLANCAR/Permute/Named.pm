@@ -101,8 +101,8 @@ just returns the one permutation:
 
 =head1 SEE ALSO
 
-L<Permute::Named>
+L<Permute::Named>, L<Permute::Named::Iter> and CLI <permute-named>
 
-L<Permute::Named::Iter>
+L<Set::CrossProduct> and L<cross>
 
 =cut
